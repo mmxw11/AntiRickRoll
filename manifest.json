@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "AntiRickRoll",
+    "description": "The name is pretty self explaining. Keeps you away from internet trolls and b4d friendz.",
+    "version": "1.0",
+    "icons": {
+        "48": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "js/listeners.js"
+        ]
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "web_accessible_resources": [
+        "view/*",
+        "js/page-events.js"
+    ],
+    "permissions": [
+        "tabs",
+        "webRequest",
+        "webRequestBlocking",
+        "http://*/*",
+        "https://*/*"
+    ]
+}
