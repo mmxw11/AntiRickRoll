@@ -5,7 +5,7 @@ chrome.tabs.onUpdated.addListener(onTabUpdate);
 
 function onTabUpdate(tabId, changeInfo, tab) {
     var url = changeInfo.url;
-    if (url == undefined) {
+    if (url == null) {
         return;
     }
     url = new String(url);

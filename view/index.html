@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html> 
  <head> 
+  <meta charset="UTF-8">
   <title>Possible unwanted site</title>
-  <link rel="stylesheet" type="text/css" href="chrome-extension://fmjlhpkippkipaeiipagmepohcljcjfn/view/style.css">
-  <script type="text/javascript" src="chrome-extension://fmjlhpkippkipaeiipagmepohcljcjfn/js/page-events.js"></script>
+  <link rel="stylesheet" type="text/css" href="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/view/style.css">
+  <script type="text/javascript" src="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/js/page-events.js"></script>
  </head>
  <body>
   <div class="info-div">
-   <img src="chrome-extension://fmjlhpkippkipaeiipagmepohcljcjfn/view/warning-icon.png" id="wicon"/>
-   <div class="content-div">
-    <p id="title">Possible unwanted site ahead</p>
-    <p id="warning-text">Contents on the page of <b>www.youtube.com/watch?v=dQw4w9WgXcQ</b> may be harmful to some viewers and may trick you being rick trolled (for example watching content you were not intended). 
-    <a href="https://en.wikipedia.org/wiki/Rickrolling">Learn more</a></p> 
-    <p id="info-text">Possible unwanted websites like this are automatically blocked due to give the user best experience and prevent harmful content.</p>
+   <img id="wicon" src="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/view/warning-icon.png"/>
+    <div class="content-div">
+     <p id="title">Possible unwanted site ahead</p>
+     <p id="warning-text">Contents on the page of <b>www.youtube.com/watch?v=dQw4w9WgXcQ</b> may be harmful to some viewers and may trick you being rick trolled (for example watching content you were not intended). 
+     <a href="https://en.wikipedia.org/wiki/Rickrolling">Learn more</a></p> 
+     <p id="info-text">Possible unwanted websites like this are automatically blocked due to give the user best experience and prevent harmful content.</p>
      <div class="options-div"> 
       <input type="button" id="details-button" class="nobg-button" value="DETAILS" onclick="toggleDetails();"/>
       <input type="button" class="secure-button" value="Back to safety" onclick="backToPreviousPage();"/>
@@ -22,7 +23,7 @@
        <input type="button" id="access-button" class="nobg-button" value="return to this unsafe site." onclick="accessSite();"/>
       </p>
      </div>
-   </div>
+    </div>
   </div>
  </body>
 </html>
