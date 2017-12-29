@@ -1,30 +1,31 @@
 <!DOCTYPE html>
-<html> 
- <head> 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Possible unwanted site</title>
-  <link rel="stylesheet" type="text/css" href="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/view/style.css">
-  <script type="text/javascript" src="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/js/page-events.js"></script>
- </head>
- <body>
-  <div class="info-div">
-   <img id="wicon" src="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/view/warning-icon.png"/>
-    <div class="content-div">
-     <p id="title">Possible unwanted site ahead</p>
-     <p id="warning-text">Contents on the page of <b>www.youtube.com/watch?v=dQw4w9WgXcQ</b> may be harmful to some viewers and may trick you being rick trolled (for example watching content you were not intended). 
-     <a href="https://en.wikipedia.org/wiki/Rickrolling">Learn more</a></p> 
-     <p id="info-text">Possible unwanted websites like this are automatically blocked due to give the user best experience and prevent harmful content.</p>
-     <div class="options-div"> 
-      <input type="button" id="details-button" class="nobg-button" value="DETAILS" onclick="toggleDetails();"/>
-      <input type="button" class="secure-button" value="Back to safety" onclick="backToPreviousPage();"/>
-     </div>
-     <div id="details-div" style="display:none">
-      <p>Anti Rick Roll recently detected dangerous content on www.youtube.com/watch?v=dQw4w9WgXcQ. This site tries force you to watch this content.<br/><br/>If you understand the risks to your security,
-       <input type="button" id="access-button" class="nobg-button" value="return to this unsafe site." onclick="accessSite();"/>
-      </p>
-     </div>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Possible unwanted site</title>
+    <link rel="stylesheet" type="text/css" href="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/view/style.css">
+    <script type="text/javascript" src="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/js/page-events.js"></script>
+  </head>
+  <body>
+    <div class="info-div">
+      <img id="wicon" src="chrome-extension://knhlnhncknjnkaggjipbklffgnndboik/view/warning-icon.png"/>
+      <div class="content-div">
+        <p id="title">Possible unwanted site ahead</p>
+        <p id="warning-text">Contents on the page of <b>www.youtube.com/watch?v=dQw4w9WgXcQ</b> may be harmful to some viewers and may trick you being rick trolled (for example watching content you were not intended). 
+          <a href="https://en.wikipedia.org/wiki/Rickrolling">Learn more</a>
+        </p>
+        <p id="info-text">Possible unwanted websites like this are automatically blocked due to give the user best experience and prevent harmful content.</p>
+        <div class="options-div"> 
+          <input type="button" id="details-button" class="nobg-button" value="DETAILS" onclick="toggleDetails();"/>
+          <input type="button" class="secure-button" value="Back to safety" onclick="backToPreviousPage();"/>
+        </div>
+        <div id="details-div" style="display:none">
+          <p>Anti Rick Roll recently detected dangerous content on www.youtube.com/watch?v=dQw4w9WgXcQ. This site tries force you to watch this content.<br/><br/>If you understand the risks to your security,
+            <input type="button" id="access-button" class="nobg-button" value="return to this unsafe site." onclick="accessSite();"/>
+          </p>
+        </div>
+      </div>
     </div>
-  </div>
- </body>
+  </body>
 </html>
