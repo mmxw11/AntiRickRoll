@@ -7,8 +7,8 @@ function backToPreviousPage() {
 }
 
 function accessSite() {
-     this.detailsOpen = false;
-     document.location.reload(true);
+    this.detailsOpen = false;
+    document.location.reload(true);
 }
 
 function toggleDetails() {
